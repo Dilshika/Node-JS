@@ -1,0 +1,11 @@
+Each type of Stream is an EventEmitter instance and throws several events at different instance of times. For example, some of the commonly used events are −
+
+data − This event is fired when there is data is available to read.
+
+end − This event is fired when there is no more data to read.
+
+error − This event is fired when there is any error receiving or writing data.
+
+finish − This event is fired when all the data has been flushed to underlying system.
+
+This tutorial provides a basic understanding of the commonly used operations on Streams.
